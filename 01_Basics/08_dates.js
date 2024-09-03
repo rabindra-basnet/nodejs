@@ -49,7 +49,9 @@ const options = {
     month: "long",
     day: "numeric",
   };
+
   options.timeZone = "GMT";
+  
 const date = newDate.toLocaleString('en-Us', options)
 // 'default', {
 //     weekday: "long",
