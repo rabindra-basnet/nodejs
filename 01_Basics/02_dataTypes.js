@@ -20,3 +20,11 @@ let state;
 //null -> standalone value
 //undefined -> unassigned
 //symbol -> unique
+
+//object
+
+console.log(typeof name);
+console.log(typeof null);
+console.log(typeof undefined);
+
+
