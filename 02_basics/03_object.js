@@ -75,10 +75,42 @@ const users = [
     },
 ]
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggIn'));
+
+
+// ********** Destructing and api *****
+
+//destructing objects
+const course = {
+    courseName: "js in hindi",
+    price:"999",
+    courseInstructor:'hitesh'
+}
+
+const {courseInstructor} = course;
+
+console.log(courseInstructor)
+
+
+// const navbar = ({company}) =>{
+
+// }
+// navbar(company = "Rabindra")
+
+// {
+//     "name":"Rabindra",
+//     "courseName": "js in hindi",
+//     "price":"free"
+// }
+// format in arr 
+// [
+//     {},
+//     {},
+//     {}
+// ]
